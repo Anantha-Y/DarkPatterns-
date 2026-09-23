@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────
+# Dark Pattern Detection & Analysis System
+# Y.Anantha_darkpatterns — full dependency list
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# ── Core data & ML ────────────────────────────────────────────
+pandas>=1.5.0           # Data loading, cleaning, analysis (DataFrames)
+numpy>=1.23.0           # Numerical operations, array handling
+scikit-learn>=1.2.0     # TF-IDF, Logistic Regression, Naive Bayes, metrics
+
+# ── Visualisation ─────────────────────────────────────────────
+matplotlib>=3.6.0       # Bar charts, pie charts, model comparison plots
+seaborn>=0.12.0         # Confusion matrix heatmap
+
+# ── Model persistence ─────────────────────────────────────────
+joblib>=1.2.0           # Save / load trained ML model and TF-IDF vectorizer
+
+# ── Web application ───────────────────────────────────────────
+streamlit>=1.28.0       # Interactive dashboard (Y.Anantha_darkpatterns_app.py)
+
+# ── Image handling ────────────────────────────────────────────
+Pillow>=9.0.0           # Image loading used by Streamlit for chart PNGs
+
+# ── Report generation ─────────────────────────────────────────
+python-docx>=1.1.0      # Generate Y.Anantha_ProjectReport.docx (generate_report.py)
+
+# ── Screenshot automation ─────────────────────────────────────
+playwright>=1.40.0      # Browser automation for Streamlit screenshots (take_screenshots.py)
+# After installing, also run:  playwright install chromium
+
+# ── Standard library (no install needed) ──────────────────────
+# os, json, time  — built into Python 3.x
