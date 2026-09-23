@@ -1,6 +1,6 @@
 # 🔍 Dark Pattern Detection & Analysis System
 
-> **Author:** Y. Anantha  
+> **Author:** Y. Anantha  Vishwa Priya
 > **Project:** Y.Anantha_darkpatterns  
 > **Tech:** Python · NLP · Machine Learning · Streamlit
 
